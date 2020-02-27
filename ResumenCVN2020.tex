@@ -1,0 +1,43 @@
+\documentclass[12pt]{elsarticle}
+\usepackage{url}
+\usepackage[pdftex,breaklinks,pdfpagemode={None},pdfstartview={FitH},
+            pdfview={FitH},colorlinks,linkcolor={black},
+            citecolor={black}, urlcolor={black}]{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+%\usepackage{lineno,hyperref}
+%\usepackage[pdftex, margin=1in]{geometry}
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand\labelenumi{\theenumi.}
+\newtheorem{teo}{Teorema}
+\newtheorem{lemm}{Lema}
+
+
+
+
+
+\usepackage{natbib}
+\setcitestyle{numbers,sort&compress}
+
+
+\begin{document}
+
+\begin{center}
+ \textbf{Complejidad}
+\end{center}
+
+Sea $n$ un entero positivo. Una \textit {sucesión arbórea} es una sucesión de enteros positivos $d_1, d_2,\ldots,d_n$ tal que $\sum_{j=1}^{n} d_j = 2(n-1)$. Una sucesión $\sigma=d_1, d_2 \ldots, d_n$ es arbórea si y solo si hay un árbol cuyos vértices tienen grados  $d_1, d_2 \ldots, d_n$.
+
+Sea $\sigma=d_1, d_2 \ldots, d_n$ una sucesión de grados arbórea con $d_1 \leq d_2 \leq \cdots \leq d_n$ y sea $G$ una gráfica etiquetada con $V(G)= \left\lbrace w_1, w_2, \ldots, w_n \right\rbrace $. En esta ocasión mostraremos que el problema de decisión de determinar si $G$ tiene un árbol generador $T$ tal que $d_T(w_i)=d_i$, con $1 \leq i \leq n $, es un problema NP-completo. 
+
+
+
+
+\end{document}
