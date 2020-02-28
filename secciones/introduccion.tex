@@ -2,15 +2,74 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Definición}
 \begin{frame}
-\frametitle{Definiciónes}
-\begin{defn}{}
+\frametitle{Introducción}
+\begin{block}
 
+Sea \textcolor{blue}{$n$} un entero positivo. Una \textit{\textcolor{blue}{sucesión arbórea}} es una sucesión de enteros positivos \textcolor{blue}{ $d_1, d_2,\ldots d_n$} tal que \textcolor{blue}{ $\sum_{1\le i\le n} d_i=2(n-1)$}.
+\end{block}
+ 
+\begin{block}
 
-
-
-
-\end{defn}
+Una sucesión \textcolor{blue}{ $\sigma= d_1, d_2,\ldots d_n$} es arbórea si y solo si hay un árbol cuyos vértices tienen grados \textcolor{blue}{ $d_1, d_2,\ldots d_n$}.
+\end{block}
 \end{frame}
+
+\begin{frame}
+\begin{figure}[!ht]
+\begin{center}
+\begin{tikzpicture}[scale=0.5]
+
+\draw[-,color=blue] (4,8) to  (4,4);
+\draw[-,color=blue] (0,0) to (4,4);
+\draw[-,color=blue] (8,0) to (4,4);
+
+
+\filldraw[color=cyan] (0,0) circle (25pt) node[]{\huge \textcolor{black}{$w_1$}};
+\filldraw[color=cyan] (8,0) circle (25pt) node[] {\huge \textcolor{black}{$w_2$}};
+\filldraw[color=cyan] (4,4) circle (25pt) node[] {\huge \textcolor{black}{$w_3$}};
+\filldraw[color=cyan] (4,8) circle (25pt) node[] {\huge \textcolor{black}{$w_4$}};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\draw[-,color=blue] (16,8) to  (16,4);
+\draw[-,color=blue] (12,0) to (20,0);
+\draw[-,color=blue] (20,0) to (16,4);
+
+
+\filldraw[color=pink] (16,8) circle (25pt) node[]{\huge \textcolor{black}{$w_4$}};
+\filldraw[color=pink] (12,0) circle (25pt) node[] {\huge \textcolor{black}{$w_2$}};
+\filldraw[color=pink] (20,0) circle (25pt) node[] {\huge \textcolor{black}{$w_3$}};
+\filldraw[color=pink] (16,4) circle (25pt) node[] {\huge \textcolor{black}{$w_1$}};
+
+\end{tikzpicture}
+\end{center}
+\end{figure}
+\hspace{1.5 cm } $\sigma=1,1,3,1$ \hspace{4cm} $\sigma= 2,1,2,1$
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%\begin{figure}[!ht]
+%\begin{center}
+%\begin{tikzpicture}[scale=0.7]
+%\draw[-,color=blue] (4,8) to  (4,4);
+%\draw[-,color=blue] (0,0) to (4,4);
+%\draw[-,color=blue] (8,0) to (4,4);
+%
+%
+%\filldraw[color=orange] (0,0) circle (25pt) node[]{\huge \textcolor{black}{$w_1$}};
+%\filldraw[color=orange] (8,0) circle (25pt) node[] {\huge \textcolor{black}{$w_2$}};
+%\filldraw[color=orange] (4,4) circle (25pt) node[] {\huge \textcolor{black}{$w_4$}};
+%\filldraw[color=orange] (4,8) circle (25pt) node[] {\huge \textcolor{black}{$w_3$}};
+%\end{tikzpicture}
+%\end{center}
+%\end{figure}
+%\centering $\sigma=1,1,1,3$ 
+%\end{frame}
+%
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Objetivo de la plática}
@@ -19,8 +78,26 @@
 \begin{thm}
 %\frametitle{Objetivo de la plática }
 Sean \textcolor{blue}{$n\geq 4$} un número entero, \textcolor{blue}{$G$} una gráfica etiquetada con el conjunto de vértices \textcolor{blue}{ $V(G)= \left\lbrace w_1, w_2, \ldots, w_n \right\rbrace$} y \textcolor{blue}{$\sigma=d_1, d_2 \ldots, d_n$} una sucesión de grados arbórea, donde  \textcolor{blue}{$d_1 \leq d_2 \leq \cdots \leq d_n$}. El problema de decidir si \textcolor{blue}{$G$} tiene un árbol generador \textcolor{blue}{ $T$} tal que \textcolor{blue}{$d_T(w_i)=d_i$}, con \textcolor{blue} {$1 \leq i \leq n $}, es \textcolor{blue}{$NP$-completo}. 
-
 \end{thm}
+\pause
+%\begin{frame}
+\begin{figure}[!ht]
+\begin{center}
+\begin{tikzpicture}[scale=0.4]
+\draw[-,color=blue] (4,8) to  (4,4);
+\draw[-,color=blue] (0,0) to (4,4);
+\draw[-,color=blue] (8,0) to (4,4);
+
+
+\filldraw[color=orange] (0,0) circle (25pt) node[]{\Large \textcolor{black}{$w_1$}};
+\filldraw[color=orange] (8,0) circle (25pt) node[] {\Large \textcolor{black}{$w_2$}};
+\filldraw[color=orange] (4,4) circle (25pt) node[] {\Large \textcolor{black}{$w_4$}};
+\filldraw[color=orange] (4,8) circle (25pt) node[] {\Large \textcolor{black}{$w_3$}};
+\end{tikzpicture}
+\end{center}
+\end{figure}
+\centering $\sigma=1,1,1,3$ 
+%\end{frame}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5z
@@ -31,7 +108,9 @@ Sean \textcolor{blue}{$n\geq 4$} un número entero, \textcolor{blue}{$G$} una grá
 
 \begin{itemize}
  \Large
-\centering \item Mostrar que el problema esta en la clase $NP$\pause
+\centering \item Mostrar que el problema de decisión \textcolor{blue}{$B$} esta \
+
+en la \textcolor{blue}{clase $NP$}\pause
 \vspace{1.5 cm}
 \centering \item  $A\leq _ {\textcolor{blue}{p}} B$
 

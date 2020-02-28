@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.21)  27 FEB 2020 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.21)  28 FEB 2020 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,7 +1115,7 @@ Overfull \hbox (288.37479pt too wide) in paragraph at lines 44--44
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <14.4> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 53.
 
-<fig/colibri.jpg, id=52, 225.09094pt x 146.04562pt>
+<fig/colibri.jpg, id=40, 225.09094pt x 146.04562pt>
 File: fig/colibri.jpg Graphic file (type jpg)
 <use fig/colibri.jpg>
 Package pdftex.def Info: fig/colibri.jpg  used on input line 53.
@@ -1123,31 +1123,39 @@ Package pdftex.def Info: fig/colibri.jpg  used on input line 53.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./fig/colibri.jpg>]
-(./secciones/introduccion.tex [2
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+(./secciones/introduccion.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 24.
+line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[3
+[2
 
-] [4
+] [3
 
-] [5
+]
+Overfull \vbox (6.10231pt too high) detected at line 101
+ []
+
+[4
+
+]
+Overfull \vbox (6.10231pt too high) detected at line 101
+ []
+
+[5
 
 ] [6
 
@@ -1155,168 +1163,11 @@ thkerncmss.
 
 ] [8
 
-]) (./secciones/transformacion.tex
-<fig/degradado.jpg, id=275, 702.625pt x 491.8375pt>
-File: fig/degradado.jpg Graphic file (type jpg)
-<use fig/degradado.jpg>
-Package pdftex.def Info: fig/degradado.jpg  used on input line 7.
-(pdftex.def)             Requested size: 364.20921pt x 273.15315pt.
- [9
+] [9
 
- <./fig/degradado.jpg>]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [10
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [11
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [12
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [13
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [14
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [15
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [16
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [17
-
-] [18
-
-] [19
+] [10
 
 ])
-(./secciones/Demostracion.tex
-<fig/leon.jpg, id=557, 851.18pt x 567.11874pt>
-File: fig/leon.jpg Graphic file (type jpg)
-<use fig/leon.jpg>
-Package pdftex.def Info: fig/leon.jpg  used on input line 5.
-(pdftex.def)             Requested size: 364.19536pt x 242.65346pt.
- [20
-
- <./fig/leon.jpg>] [21
-
-] [22
-
-] [23
-
-]
-Overfull \vbox (17.0993pt too high) detected at line 517
- []
-
-[24
-
-]
-Overfull \vbox (17.0993pt too high) detected at line 517
- []
-
-[25
-
-]
-Overfull \vbox (17.0993pt too high) detected at line 517
- []
-
-[26
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 653
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 653.
-
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 653.
-
-[27
-
-] [28
-
-] [29
-
-] [30
-
-] [31
-
-]) (./secciones/gracias.tex
-<fig/gp.jpg, id=862, 3854.4pt x 2168.1pt>
-File: fig/gp.jpg Graphic file (type jpg)
-<use fig/gp.jpg>
-Package pdftex.def Info: fig/gp.jpg  used on input line 10.
-(pdftex.def)             Requested size: 364.17215pt x 273.12912pt.
- [32
-
- <./fig/gp.jpg>])
 \tf@nav=\write6
 \openout6 = `coloquio.nav'.
 
@@ -1326,47 +1177,42 @@ Package pdftex.def Info: fig/gp.jpg  used on input line 10.
 \tf@snm=\write8
 \openout8 = `coloquio.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
-
-(./coloquio.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+ (./coloquio.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `coloquio.out' has not changed.
-(rerunfilecheck)             Checksum: F079352CF96C26D65D86E49D955627A0;383.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+(rerunfilecheck)             Checksum: A436A49CE43C9AFABF896FBB23B505AF;244.
  ) 
 Here is how much of TeX's memory you used:
- 24793 strings out of 492982
- 508678 string characters out of 6134895
- 754928 words of memory out of 5000000
- 27717 multiletter control sequences out of 15000+600000
- 19649 words of font info for 71 fonts, out of 8000000 for 9000
+ 24639 strings out of 492982
+ 506669 string characters out of 6134895
+ 618071 words of memory out of 5000000
+ 27626 multiletter control sequences out of 15000+600000
+ 19664 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,76p,794b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,10n,76p,794b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb>
-Output written on coloquio.pdf (32 pages, 1020005 bytes).
+Output written on coloquio.pdf (10 pages, 158400 bytes).
 PDF statistics:
- 950 PDF objects out of 1000 (max. 8388607)
- 878 compressed objects within 9 object streams
- 73 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
