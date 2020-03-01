@@ -1,6 +1,2 @@
 \babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Definici\'on}{2}{0}{1}
-\beamer@sectionintoc {2}{Objetivo de la pl\'atica}{4}{0}{2}
-\beamer@sectionintoc {3}{Estrategia}{6}{0}{3}
-\beamer@sectionintoc {4}{Estrategia.}{8}{0}{4}
-\beamer@sectionintoc {5}{Estrategia}{9}{0}{5}
+\beamer@sectionintoc {1}{Demostraci\'on }{3}{0}{1}
